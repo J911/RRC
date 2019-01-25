@@ -4,6 +4,7 @@
 #include <string.h>
 
 #include "server.h"
+#include "client.h"
 
 #define DEFAULT_PORT 911
 #define DEFAULT_MODE "client"
