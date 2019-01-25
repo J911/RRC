@@ -9,5 +9,3 @@
 #define BUFFER_SIZE 1024
 
 int server_connect(char *ip, int port);
-void write_data(char *buffer, int client_socket);
-void read_data(char *buffer, int client_socket);

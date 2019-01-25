@@ -10,7 +10,5 @@
 #define BACKLOG 5
 
 int build_server (int port);
-void write_data(char *buffer, int client_socket);
-void read_data(char *buffer, int client_socket);
 void close_socket(int client_socket);
 int accept_client();
