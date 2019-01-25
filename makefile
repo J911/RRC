@@ -1,11 +1,11 @@
 CC = gcc
 TARGET = rrc
-SRCS = rrc.c server.c client.c message-handler.c
+SRCS = rrc.c utils/server.c utils/client.c utils/message-handler.c
 OBJS = $(SRCS:.c=.o)
 
 $(TARGET) : $(OBJS)
 	$(CC) $(CFLAGS) -o $@ $^
-	rm *.o
+	rm **/*.o
 
 clean : 
-	rm *.o $(TARGET)
+	rm **/*.o $(TARGET)

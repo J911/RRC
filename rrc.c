@@ -3,9 +3,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "server.h"
-#include "client.h"
-#include "message-handler.h"
+#include "utils/server.h"
+#include "utils/client.h"
+#include "utils/message-handler.h"
 
 #define DEFAULT_PORT 911
 #define DEFAULT_IP "127.0.0.1"
