@@ -1,6 +1,6 @@
 #include "command.h"
 
-void exec(char *cmd) 
+void exec(char *cmd, CallBackPtr callback) 
 {
     FILE *fp;
     char path[RESULT_SIZE];
@@ -14,7 +14,7 @@ void exec(char *cmd)
 
     while (fgets(cmd, sizeof(cmd)-1, fp) != NULL) 
     {        
-        printf("%s", cmd);
+        callback(cmd);
     }
 
     pclose(fp);
