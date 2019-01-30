@@ -6,6 +6,7 @@
 #include "utils/server.h"
 #include "utils/client.h"
 #include "utils/message-handler.h"
+#include "utils/command.h"
 
 #define DEFAULT_PORT 911
 #define DEFAULT_IP "127.0.0.1"

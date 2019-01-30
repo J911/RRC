@@ -1,6 +1,6 @@
 CC = gcc
 TARGET = rrc
-SRCS = rrc.c utils/server.c utils/client.c utils/message-handler.c
+SRCS = rrc.c utils/server.c utils/client.c utils/message-handler.c utils/command.c
 OBJS = $(SRCS:.c=.o)
 
 $(TARGET) : $(OBJS)
