@@ -1,6 +1,5 @@
 #include "client.h"
 
-
 int server_connect(char *ip, int port)
 {
     struct sockaddr_in server_addr;
